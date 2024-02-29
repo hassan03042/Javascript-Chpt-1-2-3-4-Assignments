@@ -1,8 +1,10 @@
 .secondmaindiv {
-    text-align: center;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 180px;
+    height: 100vh;
 }
 
 .chpbtn {
@@ -10,12 +12,35 @@
     padding: 7px;
     border-radius: 10px;
     color: white;
+    text-decoration: underline;
+    text-decoration-color: beige;
 }
 
+.chpbtn:hover {
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgb(9, 98, 126);
+    transition: .2s;
+    transform: scale(1);
+} 
+
 body {
-    background-image: url(https://img.freepik.com/free-vector/abstract-blue-light-pipe-speed-zoom-black-background-technology_1142-9980.jpg?w=740&t=st=1708857615~exp=1708858215~hmac=9131045455f904730e461a2b6867597fcd6ee5426c777899162ad6cccdd0f5c2);
+    background-image: url(https://wallpaperaccess.com/full/202978.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 2px;
+
+}  
+
+.chpdiv > a {
+    display: block;
+    height: 50px;
 }
 
 .jca {
