@@ -14,14 +14,19 @@
     color: white;
     text-decoration: underline;
     text-decoration-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    background: linear-gradient(90deg,#0162c8,#55e7fc);
 }
 
 .chpbtn:hover {
     cursor: pointer;
     color: rgb(255, 255, 255);
     background-color: rgb(9, 98, 126);
-    transition: .2s;
-    transform: scale(1);
+    transition: .3s ease-in-out;
+    transform: scale(1.09);
 } 
 
 body {
