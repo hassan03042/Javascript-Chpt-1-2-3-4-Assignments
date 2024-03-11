@@ -30,3 +30,4 @@ console.log (Modulas)
 //Square Of a Multiple Nmmbers
 var exponent = num1 ** 2
 console.log (exponent)
+  
